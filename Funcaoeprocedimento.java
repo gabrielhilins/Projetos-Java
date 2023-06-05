@@ -1,13 +1,5 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- */
-
 package com.mycompany.funcaoeprocedimento;
 
-/**
- *
- * @author Windows
- */
 import java.util.Scanner;
 
 public class Funcaoeprocedimento {
