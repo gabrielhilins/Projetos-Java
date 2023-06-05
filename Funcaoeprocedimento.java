@@ -39,10 +39,11 @@ public class Funcaoeprocedimento {
                 case 0 -> System.out.println("Fim do programa");
                 default -> System.out.println("Opção inválida");
             } 
-            while(opcao!=0)
-                
             
                 
+            
+        }while(opcao!=0);
+    }
         public static double volumeCubo(double lcubo){
                  return (lcubo*lcubo*lcubo);
              }
