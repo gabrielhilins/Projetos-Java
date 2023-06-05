@@ -13,12 +13,12 @@ public class Funcaoeprocedimento {
         
         do {
             menu();
-            System.out.println("Escolha uma opção");
+            System.out.println("Escolha uma opção:");
             opcao = dado.nextInt();
             
             switch(opcao){
                 case 1 -> {
-                    System.out.println("Digite o lado do cubo");
+                    System.out.println("Digite o lado do cubo:");
                     lcubo = dado.nextDouble();
                     v = volumeCubo(lcubo);
                     System.out.println("o volume do cubo de lado" + lcubo + "é" + v);
@@ -51,8 +51,8 @@ public class Funcaoeprocedimento {
               return (altura*largura*comprimento);   
     }
              public static void menu(){
-                 System.out.println("1) Cácular o volume do Cubo");
-                 System.out.println("2) Cácular o volume do Paralelepípedo");
+                 System.out.println("1) Calcular o volume do Cubo");
+                 System.out.println("2) Calcular o volume do Paralelepípedo");
                  System.out.println("0) Sair");
                  
              }
